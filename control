@@ -1,0 +1,9 @@
+Package: gay.kota.basiccarrier
+Name: Basic Carrier
+Version: 1.0.0nya~
+Architecture: iphoneos-arm
+Description: Basic tweak to change carrier text. iOS 13+
+Maintainer: Kota
+Author: Kota
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

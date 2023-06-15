@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>gay.kota.basiccarrier</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Set Carrier Label</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>Kota♥</string>
+			<key>defaults</key>
+			<string>gay.kota.basiccarrier</string>
+			<key>key</key>
+			<string>setText</string>
+			<key>placeholder</key>
+			<string>Set Carrier Text</string>
+			<key>height</key>
+			<real>44</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Links</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Kota's GitHub</string>
+			<key>icon</key>
+			<string>github@2x.png</string>
+			<key>action</key>
+			<string>openGithubKota</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Basic Carrier</string>
+</dict>
+</plist>
